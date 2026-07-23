@@ -19,14 +19,23 @@
     align-items: center;
 }
 
+.a-navbar {
+    text-decoration: none;
+    color: rgb(192, 176, 135);
+}
+
 .li-navbar {
     display: flex;
-    padding : 20px;
+    padding : 10px;
+    margin : 5px;
     color: rgb(192, 176, 135);
-    border-left-color: blue;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;    
+}
+
+.li-navbar:hover {
+    background-color: rgb(66, 55, 55);
+    transition: .3s ease-in-out;
+    transition-delay: .5s;
+    border-radius: 8px;
 }
 
 .container-content {
