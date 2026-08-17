@@ -67,7 +67,7 @@
 }
 
 .container-content {
-    background-color: rgb(32, 185, 73);
+    background-color:brown;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,8 +75,10 @@
 }
 
 .li-content {
+    display: flex;
+    background-color: brown;
     font-size: 15px;
-    text-align: right;
+    text-align: center;
     color: rgb(192, 176, 135);
 }
 
@@ -84,7 +86,8 @@
     color: rgb(192, 176, 135);
 }
 
-.img-content {
+.background-content {
+    position: relative;
     display: flex;
     justify-content: left0;
     align-items: left;
@@ -93,8 +96,21 @@
     height: 100%;
 }
 
+.coffe {
+    position: absolute;
+    width: 240px;
+    height: 120px;
+    top: 120px;
+    left: 360px;
+}
+
 .h1-content {
-    text-align: center;
     color: rgb(219, 159, 9);
 }
 
+.li1-content {
+    position: absolute;
+    top: 250px;;
+    left: 360px;
+    list-style: none;
+}
