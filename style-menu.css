@@ -5,7 +5,7 @@
 }
 
 .container {
-    background-color: rgb(184, 82, 82);
+    background-color: none;
 }
 
 .container-navbar {
@@ -67,7 +67,7 @@
 }
 
 .container-content {
-    background-color:brown;
+    background-color:none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,8 +75,7 @@
 }
 
 .li-content {
-    display: flex;
-    background-color: brown;
+    background-color: none;
     font-size: 15px;
     text-align: center;
     color: rgb(192, 176, 135);
@@ -99,8 +98,8 @@
 .coffe {
     position: absolute;
     width: 240px;
-    height: 120px;
-    top: 120px;
+    height: 140px;
+    top: 145px;
     left: 360px;
 }
 
@@ -110,7 +109,35 @@
 
 .li1-content {
     position: absolute;
-    top: 250px;;
-    left: 360px;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    width: 330px;
+    top: 290px;
+    left: 370px;
+    font-size: 8px;
+    list-style: none;
+}
+
+.espreso {
+    position: absolute;
+    width: 360px;
+    height: 240px;
+    top: 60px;
+    right: 120px;
+}
+
+.li2-content {
+    position: absolute;
+    display: flex;
+    width: 330px;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    top: 290px;
+    right: 125px;
+    list-style: none;
+    font-size: 8px;
+}
+
+.h11-content {
     list-style: none;
 }
