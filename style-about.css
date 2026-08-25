@@ -5,7 +5,7 @@
 }
 
 .container {
-    background-color: rgb(184, 82, 82);
+    background-color:none;
 }
 
 .container-navbar {
@@ -14,7 +14,6 @@
 }
 
 .ul-navbar {
-    list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,30 +37,6 @@
 .a-navbar {
     text-decoration: none;
     color: rgb(192, 176, 135);
-}
-
-.li-navbar1 {
-    font-family: "Poppins", sans-serif;
-    list-style-type: none;
-    text-transform: capitalize;
-    font-weight: bold;
-    display: flex;
-    padding : 10px;
-    margin : 5px;
-    color: rgb(192, 176, 135);
-}
-
-.li-navbar1:hover {
-    background-color: rgb(111, 113, 32);
-    transition: .3s ease-in-out;
-    transition-delay: .5s;
-    border-radius: 8px;
-}
-
-.a-navbar1 {
-    text-decoration: none;
-    font-weight: 20px;
-    color: rgb(174, 206, 61);
 }
 
 .li-navbar1 {
@@ -92,10 +67,9 @@
 }
 
 .container-content {
-    background-color: brown;
+    background-color: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
     height: 90vh;
 }
 
@@ -119,16 +93,13 @@
 
 .img-content {
     display: flex;
-    justify-content: center;
-    align-items: center;
     text-decoration: none;
-    width: 100%;
+    width: 50%;
     height: 100%;
-}
-
-.text-content {
-    position: absolute;
-    color: rgb(235, 191, 71);
-    align-items: center;
-    justify-content: center;
+    backdrop-filter: blur (50px);
+    background: linear-gradient(
+        to right
+        transparent,
+         rgba(255, 255, 255, 0.2)
+        );
 }
