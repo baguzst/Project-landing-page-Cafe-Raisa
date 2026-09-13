@@ -56,6 +56,28 @@
     border-radius: 8px;
 }
 
+.li-navbar2 {
+    display: flex;
+    position: relative;
+    list-style: none;
+    align-items: center;
+    font-family: "poppins", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    left: -240px;
+}
+
+.li-navbar2 span {
+    display: flex;
+    position: relative;
+    list-style: none;
+    align-items: center;
+    font-family: "poppins", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(206, 196, 9);
+}
+
 .a-navbar1 {
     border: 2px solid white;
     padding:5px;
@@ -97,6 +119,7 @@
 
 .coffe {
     position: absolute;
+    text-align: justify;
     width: 240px;
     height: 140px;
     top: 145px;
@@ -110,7 +133,7 @@
 .li1-content {
     position: absolute;
     font-family: "Poppins", sans-serif;
-    text-align: left;
+    text-align: justify;
     width: 330px;
     top: 290px;
     left: 370px;
@@ -120,6 +143,7 @@
 
 .espreso {
     position: absolute;
+    text-align: justify;
     width: 360px;
     height: 240px;
     top: 60px;
